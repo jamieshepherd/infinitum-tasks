@@ -1,0 +1,13 @@
+service: tasks
+runtime: go
+env: flex
+manual_scaling:
+  instances: 1
+
+env_variables:
+  SQL_MAX_CONNECTIONS: '50'
+  SQL_HOST: ''
+  SQL_PORT: '3306'
+  SQL_DB: 'infinitum'
+  SQL_USER: 'root'
+  SQL_PASS: ''
