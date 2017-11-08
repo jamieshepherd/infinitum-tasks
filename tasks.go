@@ -70,6 +70,17 @@ func Gather(db *sql.DB, task Task) {
 
 func Craft(db *sql.DB, task Task) {
 	// Craft it
+	stmtUpd, err := db.Prepare("INSERT INTO item_user (item_id, user_id, quantity) VALUES (?,?,?) ON DUPLICATE KEY UPDATE quantity=quantity+?");
+	if err != nil {
+		panic(err.Error()) // proper error handling instead of panic in your app
+	}
+	defer stmtUpd.Close() // Close the statement when we leave main() / the program terminates
+
+	_, err = stmtUpd.Exec(task.Item, task.User, task.Quantity, task.Quantity)
+	if err != nil {
+		panic(err.Error()) // proper error handling instead of panic in your app
+	}
+
 	// Complete it
 	CompleteTask(db, task)
 }

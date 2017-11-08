@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6630aae7-77b3-415a-b03e-e7f5f0afd33d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/infinitum-task-runner.iml" afterPath="$PROJECT_DIR$/.idea/infinitum-tasks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Main_Build.exe" afterPath="$PROJECT_DIR$/build/Main_Build.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks.go" afterPath="$PROJECT_DIR$/tasks.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/tasks.go" afterPath="$PROJECT_DIR$/tasks.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,12 +47,13 @@
       <file leaf-file-name="tasks.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tasks.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+            <state relative-caret-position="417">
+              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               <folding>
-                <marker date="1507740787633" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
-                <marker date="1507740787633" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
-                <marker date="1507740787633" expanded="true" signature="1994:2044" ph="UPDATE tasks... " />
+                <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+                <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+                <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+                <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
               </folding>
             </state>
           </provider>
@@ -103,8 +100,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -178,7 +175,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -237,12 +234,198 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/strconv/atof.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17024">
+          <caret line="532" column="5" lean-forward="false" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/strconv/atof.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17024">
+          <caret line="532" column="5" lean-forward="false" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2240">
           <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
           <folding>
-            <marker date="1507740787633" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
-            <marker date="1507740787633" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
-            <marker date="1507740787633" expanded="true" signature="1994:2044" ph="UPDATE tasks... " />
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/strconv/atof.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17024">
+          <caret line="532" column="5" lean-forward="false" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/strconv/atof.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17024">
+          <caret line="532" column="5" lean-forward="false" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/strconv/atof.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17024">
+          <caret line="532" column="5" lean-forward="false" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
@@ -276,9 +459,10 @@
         <state relative-caret-position="2240">
           <caret line="70" column="35" lean-forward="true" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
           <folding>
-            <marker date="1507740787633" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
-            <marker date="1507740787633" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
-            <marker date="1507740787633" expanded="true" signature="1994:2044" ph="UPDATE tasks... " />
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
@@ -312,9 +496,10 @@
         <state relative-caret-position="2080">
           <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
           <folding>
-            <marker date="1507740787633" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
-            <marker date="1507740787633" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
-            <marker date="1507740787633" expanded="true" signature="1994:2044" ph="UPDATE tasks... " />
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
@@ -340,9 +525,10 @@
         <state relative-caret-position="2016">
           <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
           <folding>
-            <marker date="1507740787633" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
-            <marker date="1507740787633" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
-            <marker date="1507740787633" expanded="true" signature="1994:2044" ph="UPDATE tasks... " />
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
@@ -368,9 +554,10 @@
         <state relative-caret-position="3072">
           <caret line="102" column="32" lean-forward="false" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
           <folding>
-            <marker date="1507740787633" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
-            <marker date="1507740787633" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
-            <marker date="1507740787633" expanded="true" signature="1994:2044" ph="UPDATE tasks... " />
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
@@ -412,17 +599,18 @@
         <state relative-caret-position="480">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <marker date="1507740787633" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
-            <marker date="1507740787633" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
-            <marker date="1507740787633" expanded="true" signature="1994:2044" ph="UPDATE tasks... " />
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../src/strconv/atof.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17024">
-          <caret line="532" column="5" lean-forward="false" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
+        <state relative-caret-position="352">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -435,22 +623,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/../../src/strconv/atof.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="17024">
+          <caret line="532" column="5" lean-forward="false" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+        <state relative-caret-position="417">
+          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding>
-            <marker date="1507740787633" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
-            <marker date="1507740787633" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
-            <marker date="1507740787633" expanded="true" signature="1994:2044" ph="UPDATE tasks... " />
+            <marker date="1508970046200" expanded="true" signature="298:413" ph="SELECT id, i... tasks" />
+            <marker date="1508970046200" expanded="true" signature="1285:1394" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="1878:1987" ph="INSERT INTO item_user... " />
+            <marker date="1508970046200" expanded="true" signature="2495:2545" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
