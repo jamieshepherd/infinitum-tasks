@@ -17,7 +17,7 @@ func main() {
 	}
 
 	// Get MYSQL handle
-	db, err := sql.Open("mysql", os.Getenv("SQL_USER") + ":" + os.Getenv("SQL_PASS") + "@tcp("+ os.Getenv("SQL_HOST") + ":" + os.Getenv("SQL_PORT")+")/"+os.Getenv("SQL_DB"))
+	db, err := sql.Open("mysql", os.Getenv("SQL_USER") + ":" + os.Getenv("SQL_PASS") + "@tcp("+ os.Getenv("SQL_HOST") + ":" + os.Getenv("SQL_PORT")+")/"+os.Getenv("SQL_DB")+"?parseTime=true")
 	if err != nil {
 		log.Fatal("Error making a connection to MySQL")
 	}
